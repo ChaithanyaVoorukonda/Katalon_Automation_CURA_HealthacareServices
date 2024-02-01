@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_CURA_TestSuite_Make_Appointments_01" time="78.72" tests="4" failures="1" errors="0">
+   <testsuite name="TC_CURA_TestSuite_Make_Appointments_01" tests="4" failures="1" errors="0" time="78.72" skipped="0" timestamp="01-02-2024T13:16:56" hostname="Voorukonda - DESKTOP-3O0N4S4" id="Test Suites/TC_CURA_TestSuites/TC_CURA_TestSuite_Make_Appointments_01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Voorukonda\\git\\Katalon_Automation_CURA_HealthacareServices\\Reports\\20240201_131646\\TC_CURA_TestSuites\\TC_CURA_TestSuite_Make_Appointments_01\\20240201_131649"/>
+         <property name="logFiles" value="C:\\Users\\Voorukonda\\git\\Katalon_Automation_CURA_HealthacareServices\\Reports\\20240201_131646\\TC_CURA_TestSuites\\TC_CURA_TestSuite_Make_Appointments_01\\20240201_131649\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Voorukonda\\git\\Katalon_Automation_CURA_HealthacareServices\\Reports\\20240201_131646\\TC_CURA_TestSuites\\TC_CURA_TestSuite_Make_Appointments_01\\20240201_131649\\1706773676370.png"/>
+         <property name="hostName" value="Voorukonda - DESKTOP-3O0N4S4"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.129"/>
+         <property name="sessionId" value="76d8bdb3467a86280a8c2f16443e206e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_01" time="14.976" classname="Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_01" status="PASSED">
+         <system-out><![CDATA[01-02-2024T13:16:56 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_01: Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_01
+
+01-02-2024T13:16:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T13:16:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T13:16:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T13:17:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T13:17:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+01-02-2024T13:17:03 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+01-02-2024T13:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:17:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/input_username'
+
+01-02-2024T13:17:05 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/input_username'
+
+01-02-2024T13:17:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/input_password'
+
+01-02-2024T13:17:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/input_password'
+
+01-02-2024T13:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+01-02-2024T13:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+01-02-2024T13:17:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+01-02-2024T13:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+01-02-2024T13:17:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+01-02-2024T13:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+01-02-2024T13:17:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/td_9")): Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/td_9' is clicked on
+
+01-02-2024T13:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/td_9' is clicked on
+
+01-02-2024T13:17:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/textarea_comment"), "Book Appointment on the date 09/01/2024"): Text 'Book Appointment on the date 09/01/2024' is set on object 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/textarea_comment'
+
+01-02-2024T13:17:10 - [MESSAGE][PASSED] - Text 'Book Appointment on the date 09/01/2024' is set on object 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/textarea_comment'
+
+01-02-2024T13:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+01-02-2024T13:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_01_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+01-02-2024T13:17:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2024T13:17:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02" time="44.772" classname="Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at TC_CURA_Make_Appointment_02.run(TC_CURA_Make_Appointment_02:51)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706773609057.run(TempTestSuite1706773609057.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' located by '//td[3]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[01-02-2024T13:17:11 - [TEST_CASE][FAILED] - Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02: Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_CURA_Make_Appointment_02.run(TC_CURA_Make_Appointment_02:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706773609057.run(TempTestSuite1706773609057.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' located by '//td[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+01-02-2024T13:17:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T13:17:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T13:17:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T13:17:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T13:17:12 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+01-02-2024T13:17:15 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+01-02-2024T13:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:17:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/input_username'
+
+01-02-2024T13:17:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/input_username'
+
+01-02-2024T13:17:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/input_password'
+
+01-02-2024T13:17:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/input_password'
+
+01-02-2024T13:17:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+01-02-2024T13:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+01-02-2024T13:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/div_input-group-addon")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/div_input-group-addon' is clicked on
+
+01-02-2024T13:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/div_input-group-addon' is clicked on
+
+01-02-2024T13:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+01-02-2024T13:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+01-02-2024T13:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_9")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_9' is clicked on
+
+01-02-2024T13:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_9' is clicked on
+
+01-02-2024T13:17:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/textarea_comment"), "Book Appointment on the date 09/01/2024"): Text 'Book Appointment on the date 09/01/2024' is set on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/textarea_comment'
+
+01-02-2024T13:17:22 - [MESSAGE][PASSED] - Text 'Book Appointment on the date 09/01/2024' is set on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/textarea_comment'
+
+01-02-2024T13:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+01-02-2024T13:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+01-02-2024T13:17:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+01-02-2024T13:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+01-02-2024T13:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Make Appointment_1")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Make Appointment_1' is clicked on
+
+01-02-2024T13:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/a_Make Appointment_1' is clicked on
+
+01-02-2024T13:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/div_input-group-addon")): Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/div_input-group-addon' is clicked on
+
+01-02-2024T13:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/div_input-group-addon' is clicked on
+
+01-02-2024T13:17:25 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30")): Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_CURA_Make_Appointment_02.run(TC_CURA_Make_Appointment_02:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706773609057.run(TempTestSuite1706773609057.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' located by '//td[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1706771402012.run(Script1706771402012.groovy:51)
+	... 15 more
+)
+
+01-02-2024T13:17:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T13:17:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_CURA_Make_Appointment_02.run(TC_CURA_Make_Appointment_02:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706773609057.run(TempTestSuite1706773609057.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' located by '//td[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1706771402012.run(Script1706771402012.groovy:51)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\Voorukonda\\git\\Katalon_Automation_CURA_HealthacareServices\\Reports\\20240201_131646\\TC_CURA_TestSuites\\TC_CURA_TestSuite_Make_Appointments_01\\20240201_131649\\1706773676370.png]]]]></system-out>
+         <system-err><![CDATA[01-02-2024T13:17:11 - [TEST_CASE][FAILED] - Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02: Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_CURA_Make_Appointment_02.run(TC_CURA_Make_Appointment_02:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706773609057.run(TempTestSuite1706773609057.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' located by '//td[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_03" time="10.164" classname="Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_03" status="PASSED">
+         <system-out><![CDATA[01-02-2024T13:17:56 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_03: Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_03
+
+01-02-2024T13:17:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T13:17:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-02-2024T13:17:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T13:17:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T13:17:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T13:17:57 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+01-02-2024T13:18:00 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+01-02-2024T13:18:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:18:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/input_username'
+
+01-02-2024T13:18:02 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/input_username'
+
+01-02-2024T13:18:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/input_password'
+
+01-02-2024T13:18:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/input_password'
+
+01-02-2024T13:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+01-02-2024T13:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+01-02-2024T13:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+01-02-2024T13:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+01-02-2024T13:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+01-02-2024T13:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/td_30' is clicked on
+
+01-02-2024T13:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/td_9")): Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/td_9' is clicked on
+
+01-02-2024T13:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/td_9' is clicked on
+
+01-02-2024T13:18:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/textarea_comment"), "Book Appointment on the date 09/01/2024"): Text 'Book Appointment on the date 09/01/2024' is set on object 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/textarea_comment'
+
+01-02-2024T13:18:06 - [MESSAGE][PASSED] - Text 'Book Appointment on the date 09/01/2024' is set on object 'Object Repository/TC_CURA_Make_Appointment_03_OR/Page_CURA Healthcare Service/textarea_comment'
+
+01-02-2024T13:18:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2024T13:18:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CURA_Logins/TC_CURA_Login_01" time="8.503" classname="Test Cases/TC_CURA_Logins/TC_CURA_Login_01" status="PASSED">
+         <system-out><![CDATA[01-02-2024T13:18:06 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_Logins/TC_CURA_Login_01: Test Cases/TC_CURA_Logins/TC_CURA_Login_01
+
+01-02-2024T13:18:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T13:18:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T13:18:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T13:18:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T13:18:07 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+01-02-2024T13:18:10 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+01-02-2024T13:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+01-02-2024T13:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78")): Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78' is clicked on
+
+01-02-2024T13:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78' is clicked on
+
+01-02-2024T13:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_username")): Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_username' is clicked on
+
+01-02-2024T13:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_username' is clicked on
+
+01-02-2024T13:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78_1")): Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78_1' is clicked on
+
+01-02-2024T13:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78_1' is clicked on
+
+01-02-2024T13:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_username'
+
+01-02-2024T13:18:13 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_username'
+
+01-02-2024T13:18:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_password'
+
+01-02-2024T13:18:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/input_password'
+
+01-02-2024T13:18:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+01-02-2024T13:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_CURA_Login_01_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+01-02-2024T13:18:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2024T13:18:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2024T13:16:56 - [TEST_SUITE][FAILED] - TC_CURA_TestSuite_Make_Appointments_01: Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_CURA_Make_Appointment_02.run(TC_CURA_Make_Appointment_02:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706773609057.run(TempTestSuite1706773609057.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' located by '//td[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[01-02-2024T13:16:56 - [TEST_SUITE][FAILED] - TC_CURA_TestSuite_Make_Appointments_01: Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_CURA_Make_Appointment_02.run(TC_CURA_Make_Appointment_02:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706773609057.run(TempTestSuite1706773609057.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_CURA_Make_Appointment_02_OR/Page_CURA Healthcare Service/td_30' located by '//td[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

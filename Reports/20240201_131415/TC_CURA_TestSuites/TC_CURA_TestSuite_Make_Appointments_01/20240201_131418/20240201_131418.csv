@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_CURA_TestSuite_Make_Appointments_01,,,,01-02-2024 13:14:26,01-02-2024 13:14:29,3.842s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_01,,,,01-02-2024 13:14:26,01-02-2024 13:14:29,2.623s,FAILED
+"openBrowser("""")",,,,01-02-2024 13:14:27,01-02-2024 13:14:29,2.054s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_02,,,,01-02-2024 13:14:29,01-02-2024 13:14:29,0.270s,FAILED
+"openBrowser("""")",,,,01-02-2024 13:14:29,01-02-2024 13:14:29,0.085s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_Make_Appointments/TC_CURA_Make_Appointment_03,,,,01-02-2024 13:14:29,01-02-2024 13:14:29,0.321s,FAILED
+"openBrowser("""")",,,,01-02-2024 13:14:29,01-02-2024 13:14:29,0.105s,FAILED
+,,,,,,,
+Test Cases/TC_CURA_Logins/TC_CURA_Login_01,,,,01-02-2024 13:14:29,01-02-2024 13:14:29,0.207s,FAILED
+"openBrowser("""")",,,,01-02-2024 13:14:29,01-02-2024 13:14:29,0.063s,FAILED
